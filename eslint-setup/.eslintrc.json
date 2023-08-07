@@ -9,6 +9,10 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-restricted-imports": ["error", "underscore"],
+        "eqeqeq": "error",
+        "no-console": "error",
+        "consistent-return": "error",
         "indent": [
             "error", // three options: error, warn, off
             4
