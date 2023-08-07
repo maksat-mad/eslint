@@ -1,22 +1,19 @@
 {
-  "name": "eslint-setup",
+  "name": "eslint-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint js",
-    "lint-fix": "eslint js --fix"
+    "lint-fix": "eslint js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.46.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.28.0"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "underscore": "^1.13.6"
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }
